@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LOV</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+<body>
+  <div class="content">
+    <div class="top-bar">
+      <div class="login-bar">
+        <img src="images/drawing.svg" alt="" class="logo">
+        <div class="btn btn-primary">Login</div>
+      </div>
+      <form class="register" action="/" method="post">
+        <div class="styled-select">
+          I am
+          <select>
+            <option value="male">male</option>
+            <option value="female">female</option>
+          </select>
+        </div><br>
+        <strong>Looking for:</strong><br>
+        <label class="custom-checkbox">
+          <input type="radio" name="gender" value="Male">
+          <span class="checkmark"></span>
+          Male
+        </label>
+        <label class="custom-checkbox">
+          <input type="radio" name="gender" value="Female">
+          <span class="checkmark"></span>
+          Female
+        </label>
+        <label class="custom-checkbox">
+          <input type="radio" name="gender" value="Couple">
+          <span class="checkmark"></span>
+          Couple
+        </label>
+        <div class="styled-select">
+ <!-- I made this select in such a way because on mockup it looks the same as select for gender, but writing a number of possible age in html is not the best idea. -->
+          My Age:
+          <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            <option value="32">32</option>
+            <option value="33">33</option>
+            <option value="34">34</option>
+            <option value="35">35</option>
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+            <option value="46">46</option>
+            <option value="47">47</option>
+            <option value="48">48</option>
+            <option value="49">49</option>
+            <option value="50">50</option>
+            <option value="51">51</option>
+            <option value="52">52</option>
+            <option value="53">53</option>
+            <option value="54">54</option>
+            <option value="55">55</option>
+            <option value="56">56</option>
+            <option value="57">57</option>
+            <option value="58">58</option>
+            <option value="59">59</option>
+            <option value="60">60</option>
+            <option value="61">61</option>
+            <option value="62">62</option>
+            <option value="63">63</option>
+            <option value="64">64</option>
+            <option value="65">65</option>
+            <option value="66">66</option>
+            <option value="67">67</option>
+            <option value="68">68</option>
+            <option value="69">69</option>
+            <option value="70">70</option>
+            <option value="71">71</option>
+            <option value="72">72</option>
+            <option value="73">73</option>
+            <option value="74">74</option>
+            <option value="75">75</option>
+            <option value="76">76</option>
+            <option value="77">77</option>
+            <option value="78">78</option>
+            <option value="79">79</option>
+            <option value="80">80</option>
+            <option value="81">81</option>
+            <option value="82">82</option>
+            <option value="83">83</option>
+            <option value="84">84</option>
+            <option value="85">85</option>
+            <option value="86">86</option>
+            <option value="87">87</option>
+            <option value="88">88</option>
+            <option value="89">89</option>
+            <option value="90">90</option>
+            <option value="91">91</option>
+            <option value="92">92</option>
+            <option value="93">93</option>
+            <option value="94">94</option>
+            <option value="95">95</option>
+            <option value="96">96</option>
+            <option value="97">97</option>
+            <option value="98">98</option>
+            <option value="99">99</option>
+          </select>
+        </div>
+        <input type="text" name="city-zip"  placeholder="City/ZIP"><br>
+        <input type="email" name="email" placeholder="Your Email"><br>
+        <input type="text" name="username" placeholder="Username"><br>
+        <input type="password" name="psw" placeholder="Password"><br>
+        <input type="submit" value="Sign Up" class="btn btn-primary sign-up">
+      </form>
+    </div>
+    <div class="select-correspondent">
+      <div class="visible-chats">
+        <div class="person">
+          <img src="images/1.png" alt="">
+          <h4 class="name-and-age">Hanane, 25</h4>
+          <p class="origin">Casablanca, Marocco</p>
+          <div class="btn start-chat">Hello</div>
+        </div>
+        <div class="person">
+          <img src="images/2.png" alt="">
+          <h4 class="name-and-age">Hanane, 25</h4>
+          <p class="origin">Casablanca, Marocco</p>
+          <div class="btn start-chat">Hello</div>
+        </div>
+        <div class="person">
+          <img src="lov_landing-assets/pUx8hsCd.jpg" alt="">
+          <h4 class="name-and-age">Hanane, 25</h4>
+          <p class="origin">Casablanca, Marocco</p>
+          <div class="btn start-chat">Hello</div>
+        </div>
+        <div class="person">
+          <img src="images/3.png" alt="">
+          <h4 class="name-and-age">Hanane, 25</h4>
+          <p class="origin">Casablanca, Marocco</p>
+          <div class="btn start-chat">Hello</div>
+        </div>
+        <div class="person">
+          <img src="lov_landing-assets/nJMRAa.jpg" alt="">
+          <h4 class="name-and-age">Hanane, 25</h4>
+          <p class="origin">Casablanca, Marocco</p>
+          <div class="btn start-chat">Hello</div>
+        </div>
+        <div class="person">
+          <img src="images/4.png" alt="">
+          <h4 class="name-and-age">Hanane, 25</h4>
+          <p class="origin">Casablanca, Marocco</p>
+          <div class="btn start-chat">Hello</div>
+        </div>
+        <div class="person">
+          <img src="images/5.png" alt="">
+          <h4 class="name-and-age">Hanane, 25</h4>
+          <p class="origin">Casablanca, Marocco</p>
+          <div class="btn start-chat">Hello</div>
+        </div>
+      </div>
+    </div>
+    <div class="reasons-to-use">
+      <div class="pros">
+        <img src="images/heart.svg" alt="">
+        <h4>Global</h4>
+        <p>You never know <br> where you'll find love.</p>
+      </div>
+      <div class="pros">
+        <img src="images/heart-2.svg" alt="">
+        <h4>Exiting</h4>
+        <p>A world of rossibility <br> is waiting for you.</p>
+      </div>
+      <div class="pros">
+        <img src="images/heart-3.svg" alt="">
+        <h4>Modern</h4>
+        <p>The most modern way of <br> finding romance online.</p>
+      </div>
+    </div>
+    <div class="reviews">
+      <div class="slider">
+        <div class="slide">
+          <img src="images/6.png" alt="">
+          <div class="review">
+            <h4 class="name-and-age">Hanane. 25</h4>
+            <p class="description">"My dating prospects in Tennessee were getting pretty poor, so I decided to try dating globally... I met Oliver from France on Dating.com and we can't stop messaging each other!"</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="images/7.png" alt="">
+          <div class="review">
+            <h4 class="name-and-age">Hanane. 25</h4>
+            <p class="description">"My dating prospects in Tennessee were getting pretty poor, so I decided to try dating globally... I met Oliver from France on Dating.com and we can't stop messaging each other!"</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="lov_landing-assets/20160816-lily-maymac-nhan-sac-hot-nhat-mang-xa-hoi-nbsp-1.jpg" alt="">
+          <div class="review">
+            <h4 class="name-and-age">Hanane. 25</h4>
+            <p class="description">"My dating prospects in Tennessee were getting pretty poor, so I decided to try dating globally... I met Oliver from France on Dating.com and we can't stop messaging each other!"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="info">
+      <div class="darken">
+        <p>Dating isn't about data. It isn't about algorithms. It isn't about how many friends you have in common, or whether you want a boy or a girl or no kids at all, it isn't about how tall someone is or the color or their hair, and it isn't about finding "the one".</p>
+        <p>Dating is a chance - a chance to meet someone new, a chance for them to introduce you to people, places and things that you never knew that you'd love. It's the chance that you won't like them and they won't like you. And it's the chance that they will and that you will too. It's the chance to spend time together - maybe a lifetime but maybe just an hour. It's the chance to meet anyone, anywhere in the world. It's the chance that there might be more out there, sonothing you've never even imagined.</p>
+        <div class="btn btn-secondary">Are you ready to take chance?</div>    
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+  	<ul>
+  		<li>English</li>
+  		<li>Home</li>
+  		<li>Search</li>
+  		<li>Matches</li>
+  		<li>About Us</li>
+  		<li>Contact</li>
+  		<li>Blog</li>
+  		<li>Privacy</li>
+  		<li>Terms</li>
+  		<li>Help</li>
+  		<li>Billing</li>
+  		<li>DMCA</li>
+  		<li>18 U.S.C. 2257 Impressum - &copy; Lov 2018</li>
+  	</ul>
+  </footer>
+  <!-- Jquery's needed for Slick slider -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
